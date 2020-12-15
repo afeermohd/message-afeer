@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Message - A Room Based Chat Application
+
+### [Live Site](https://message-afeer.web.app/)
+
+## Introduction
+This is a code repository for a chat application build using react, firestore and redux
 
 ## Available Scripts
 
