@@ -54,7 +54,7 @@ function Chat() {
       <div className="chat__header">
         <h4>
           <span>Room:: </span>
-          <span className="chat__name">{ chatName}</span>
+          <span className="chat__name">{chatName}</span>
         </h4>
         {/* <strong>Details</strong> */}
         <div className="chat__signOut">
@@ -83,11 +83,10 @@ function Chat() {
             placeholder="type message here.."
             type="text"
           />
-          <button onClick={sendMessage}>Send Message</button>
         </form>
-        <IconButton>
-          <MicNoneIcon className="chat__mic" />
-        </IconButton>
+        <button disabled={!chatId} className="chat__send" onClick={sendMessage}>
+          >>
+        </button>
       </div>
     </div>
   );

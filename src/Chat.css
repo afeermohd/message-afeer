@@ -71,6 +71,21 @@
   padding: 5px;
 }
 
-.chat__input > form > button {
-  display: none;
+.chat__send {
+  display: flex;
+  
+  background-color: #3ea4fb;
+  color: #eff2f5;
+  font-weight: 1000;
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.chat__send:hover {
+  background-color: gainsboro;
+ 
 }
